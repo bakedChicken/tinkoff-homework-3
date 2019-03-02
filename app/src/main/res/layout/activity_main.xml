@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <io.yoba.homework3.CustomViewGroup
+        android:id="@+id/top_custom_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        app:cvg_child_height="30dp"
+        app:cvg_spacing="4dp"
+        tools:ignore="RtlHardcoded">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 1"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 2"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 3"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 4"
+            app:closeIcon="@drawable/ic_close" />
+    </io.yoba.homework3.CustomViewGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary" />
+
+    <io.yoba.homework3.CustomViewGroup
+        android:id="@+id/bottom_custom_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        app:cvg_child_height="30dp"
+        app:cvg_spacing="4dp"
+        tools:ignore="RtlHardcoded">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 5"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 6"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 7"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 8"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 9"
+            app:closeIcon="@drawable/ic_close" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chip 10"
+            app:closeIcon="@drawable/ic_close" />
+    </io.yoba.homework3.CustomViewGroup>
+</LinearLayout>
